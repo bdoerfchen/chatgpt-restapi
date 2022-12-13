@@ -1,5 +1,5 @@
 # General
-This REST API is based on onury5506's [Discord GPT Chatbot](https://github.com/onury5506/Discord-ChatGPT-Bot), which used transitive-bullshit's (https://github.com/transitive-bullshit/chatgpt-api)[ChatGPT Library] to send requests to OpenAIs API. But instead of creating a discord bot and subscribing to incoming messages, this API opens a way for other machine services to chat with ChatGPT.
+This REST API is based on onury5506's [Discord GPT Chatbot](https://github.com/onury5506/Discord-ChatGPT-Bot), which used transitive-bullshit's [ChatGPT Library](https://github.com/transitive-bullshit/chatgpt-api) to send requests to OpenAIs API. But instead of creating a discord bot and subscribing to incoming messages, this API opens a way for other machine services to chat with ChatGPT.
 
 It offers the comfort to send messages and get the response in a conversation with a simple conversationID. The API uses this ID to map to chatGPT specific information like the `parentMessageId` and their `conversationId`. After a restart of this application, the API still keeps this mapping. To reset a conversation, use the given endpoint.
 
